@@ -36,7 +36,7 @@ WebServer server(80);
 const char* ssid = "";
 const char* password = "";
 
-const String addWeb = "funfactory";
+const String addWeb = "laptracker";
 
 const String updateTimePath = "/api/iot/" + String(IOT_DEVICE_NAME) + "/update-time";
 const String getDateTimePath = "/api/iot/" + String(IOT_DEVICE_NAME) + "/get-date-time";
