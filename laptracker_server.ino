@@ -33,8 +33,8 @@
 
 WebServer server(80);
 
-const char* ssid = "freebox_Piper06";
-const char* password = "Az 6&;fTvvk7!FRdKhGd6!9{PDrHLtYEQw2M2>~CbPpg8;hbI*S(bEra:OG&R^@";
+const char* ssid = "";
+const char* password = "";
 
 const String updateTimePath = "/api/iot/" + String(IOT_DEVICE_NAME) + "/update-time";
 const String getDateTimePath = "/api/iot/" + String(IOT_DEVICE_NAME) + "/get-date-time";
